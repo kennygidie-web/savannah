@@ -1,0 +1,80 @@
+ h1 a { text-align: center;
+color: green; 
+text-decoration-style: wavy;
+font-size: 40px;}
+h2 { color: rgb(123, 14, 59);}
+body{ text-align: center;}
+p{ text-align: center;
+font: size 30px;}
+.gallery {
+    display: flex;           
+    flex-wrap: wrap;         
+    gap: 15px;               
+    justify-content: center; 
+}
+
+.gallery img {
+    width: 200px;            
+    height: auto;            
+    border-radius: 10px;     
+    transition: transform 0.3s; 
+}
+
+.gallery img:hover {
+    transform: scale(1.05); 
+    cursor: pointer;         
+}
+
+p {
+    margin: 15px 20px;
+    font-size: 1.1em;
+    color: #4B3621;                     
+}
+.church-img {
+    width: 60%;      
+    max-width: 600px; 
+    height: auto;    
+    display: block;  
+    margin: 20px auto; 
+}
+.savannah-gallery img{
+    display:inline-block
+    flex-wrap: wrap;
+    gap: 15px; 
+    
+    margin: 20px 0;
+}
+
+.savannah-gallery img {
+    width: 250px;  
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.savannah-gallery img:hover {
+    transform: scale(1.1); 
+}
+.plant {
+    display:inline-block;
+     
+    gap: 20px;                 
+    margin: 20px 0;
+}
+
+.plant {
+    text-align: center;        
+}
+
+.plant{
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.plant {
+    font-size: 16px;
+    margin-top: 8px;
+}
+.plant{text-align: center;}

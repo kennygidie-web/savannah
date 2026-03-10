@@ -1,0 +1,34 @@
+<!DOCTYPE html><html>
+    <head>
+    <title>Savannah Ecosystem</title>
+    <link rel="stylesheet"href="styles.css">
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <h1><a href="Savannah.html">The Savannah Ecosystem</a></h1>
+        <p>Where golden grasslands meet wild life and nature tells its oldest story.</p>
+        <a href="Sava.a.png">
+        <img src="Sava.a.png"></a>
+        <h2>our story begins here</h2>
+        <div id="our-story"></div>
+        <div id="the-peaple"></div>
+        <div id="plans"></div>
+
+        <script>
+            fetch("our-strory.html")
+            .then(response=>response.text())
+            .then(data=>{document.getElementById("our-story").innerHTML=data;})
+            
+             fetch("peaple.html")
+            .then(response=>response.text())
+            .then(data=>{document.getElementById("the-peaple").innerHTML=data;})
+
+            fetch("plans.html")
+            .then(response=>response.text())
+            .then(data=>{document.getElementById("plans").innerHTML=data;})
+            
+            
+        </script>
+    </body>
+</html>
